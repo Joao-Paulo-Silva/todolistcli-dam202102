@@ -1,15 +1,16 @@
 import { StyleSheet } from "react-native";
 
 export const styles = StyleSheet.create({
-  buttonTask: {
-        backgroundColor: '#1F1E25',
+    button: {
+        backgroundColor: 'green',
         padding: 15,
-        borderRadius: 22,
-        marginHorizontal: 20,
-        marginBottom: 10
+        margin: 20,
+        borderRadius: 7,
+        alignItems: 'center'
     },
-    textTask: {
+    buttonText: {
         color: 'white',
-        fontSize: 20
-    },  
+        fontSize: 18,
+        fontWeight: 'bold'
+    },
 })
